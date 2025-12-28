@@ -1,3 +1,8 @@
+# Phase-Dependent Physical Profiles in Football
+### SkillCorner × PySport Analytics Cup – Research Track
+
+This repository is intended for evaluation as part of the SkillCorner × PySport Analytics Cup. The `submission.ipynb` notebook represents the full research submission.
+
 ## Introduction
 
 Physical performance in football is inherently phase-dependent, as players are exposed to distinct tactical and physiological demands when their team is in possession (TIP) versus out of possession (OTIP). While previous studies have described overall physical outputs, fewer have quantified how individual players adapt their physical profiles across game phases, and how these adaptations differ by position. Using season-level physical aggregates from the 2024/25 Australian A-League, this study proposes a novel framework to characterize and quantify phase-dependent physical adaptations at both the player and positional levels.
@@ -17,3 +22,10 @@ Directional analyses highlighted clear positional trends: defensive roles predom
 ## Conclusion
 
 This study introduces the Possession Shift Index as a simple yet powerful metric to quantify phase-dependent physical adaptations in football. By embedding physical performance within a shared PCA space, the approach captures both the magnitude and direction of player-specific adaptations across game phases. The findings underline the importance of considering possession context when evaluating physical performance and highlight strong positional signatures in phase dependency. This framework offers practical applications for performance profiling, role-specific conditioning, and tactical analysis in elite football.
+
+## Repository structure
+
+- `submission.ipynb` : Main submission notebook (runs end-to-end)
+- `src/` (optional) : Utility functions used in the notebook
+- `README.md` : Project overview
+
